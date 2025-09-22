@@ -5,10 +5,8 @@
 // platforms in the `pubspec.yaml` at
 // https://flutter.dev/to/pubspec-plugin-platforms.
 
-import 'ai_ui_platform_interface.dart';
+import 'package:ai_ui/repository/engine/i_aiui_service.dart';
 
 class AiUi {
-  Future<String?> getPlatformVersion() {
-    return AiUiPlatform.instance.getPlatformVersion();
-  }
+  final IAiuiEngineRepository? _repository = null;
 }

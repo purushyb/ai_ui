@@ -1,7 +1,7 @@
 import 'package:ai_ui/models/aiui_module.dart';
 import 'package:ai_ui/service/registry/i_aiui_registry.dart';
 
-class AiuiRegistry implements IAiuiRegistry {
+class AiuiRegistry implements IAiuiRegistryService {
   final List<AiuiModule> _modules = [];
 
   @override
